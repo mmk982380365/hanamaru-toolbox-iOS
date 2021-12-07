@@ -24,10 +24,6 @@
     if (self) {
         NSString *databasePath = [HMTDatabaseManager databasePath];
         _database = [[WCTDatabase alloc] initWithPath:databasePath];
-        
-//        [WCTStatistics SetGlobalSQLTrace:^(NSString *sql) {
-//            NSLog(@"%@", sql);
-//        }];
     }
     return self;
 }

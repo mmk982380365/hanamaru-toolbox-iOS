@@ -248,7 +248,6 @@ NSNotificationName HMTDidFinishFetchDataBotification = @"HMTDidFinishFetchDataBo
 }
 
 - (void)processSongList {
-    clock_t begin = clock();
     [HMTSongEntity runTransaction:^BOOL{
         return [HMTSongEntity deleteAllObjects];
     }];
@@ -328,20 +327,12 @@ NSNotificationName HMTDidFinishFetchDataBotification = @"HMTDidFinishFetchDataBo
         return [HMTSongEntity saveObjects:data];
     }];
     
-    clock_t duration = clock() - begin;
-    
-    NSLog(@"%f", (double)duration / CLOCKS_PER_SEC);
-    
     NSMutableDictionary *song_statistic = [NSMutableDictionary dictionary];
     NSMutableDictionary *medley_statistic = [NSMutableDictionary dictionary];
     NSMutableDictionary *all_statistic = [NSMutableDictionary dictionary];
     NSArray *songsNormal = [HMTSongEntity objectsWhereIsMedley:NO];
     NSArray *songsMedley = [HMTSongEntity objectsWhereIsMedley:YES];
     NSArray *songsAll = [HMTSongEntity allObjects];
-    
-    duration = clock() - begin;
-    
-    NSLog(@"%f", (double)duration / CLOCKS_PER_SEC);
     
     for (HMTSongEntity *entity in songsNormal) {
         [self countSong:song_statistic songName:entity.title isYoutube:[@"y" isEqualToString:entity.platform] liveId:(int)entity.iid timestamp:entity.timestamp date:entity.date];
