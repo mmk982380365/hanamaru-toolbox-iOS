@@ -1,0 +1,102 @@
+
+/* Class = "UIButton"; configuration.title = "油管"; ObjectID = "0gb-vf-0aS"; */
+"0gb-vf-0aS.configuration.title" = "Youtube";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0gb-vf-0aS"; */
+"0gb-vf-0aS.normalTitle" = "Youtube";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4wF-4Q-16n"; */
+"4wF-4Q-16n.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6hq-0J-Arc"; */
+"6hq-0J-Arc.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "推特"; ObjectID = "7Ln-ze-ArA"; */
+"7Ln-ze-ArA.configuration.title" = "Twitter";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7Ln-ze-ArA"; */
+"7Ln-ze-ArA.normalTitle" = "Twitter";
+
+/* Class = "UIButton"; configuration.title = "B站"; ObjectID = "Mll-UB-Nz2"; */
+"Mll-UB-Nz2.configuration.title" = "Bilibili";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Mll-UB-Nz2"; */
+"Mll-UB-Nz2.normalTitle" = "Bilibili";
+
+/* Class = "UIButton"; configuration.title = "FANBOX"; ObjectID = "aWw-rc-hbs"; */
+"aWw-rc-hbs.configuration.title" = "FANBOX";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aWw-rc-hbs"; */
+"aWw-rc-hbs.normalTitle" = "FANBOX";
+
+/* Class = "UILabel"; text = "花丸スケジュール"; ObjectID = "fZh-wn-gLj"; */
+"fZh-wn-gLj.text" = "Stream Schedule";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hhA-bN-XXh"; */
+"hhA-bN-XXh.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ki9-5e-gOt"; */
+"ki9-5e-gOt.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "查看当日歌单"; ObjectID = "lSd-kP-dwM"; */
+"lSd-kP-dwM.configuration.title" = "View the song list";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lSd-kP-dwM"; */
+"lSd-kP-dwM.normalTitle" = "View the song list";
+
+/* Class = "UILabel"; text = "20:00"; ObjectID = "ulC-Gn-ugM"; */
+"ulC-Gn-ugM.text" = "20:00";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "xUF-Rt-MOH"; */
+"xUF-Rt-MOH.title" = "Item";
+
+/* Class = "UIButton"; configuration.title = "Youtube"; ObjectID = "4il-Zj-YT6"; */
+"4il-Zj-YT6.configuration.title" = "Youtube";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4il-Zj-YT6"; */
+"4il-Zj-YT6.normalTitle" = "Youtube";
+
+/* Class = "UIButton"; configuration.title = "Bilibili"; ObjectID = "R0y-kn-D6r"; */
+"R0y-kn-D6r.configuration.title" = "Bilibili";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "R0y-kn-D6r"; */
+"R0y-kn-D6r.normalTitle" = "Bilibili";
+
+/* Class = "UILabel"; text = "直播日期"; ObjectID = "Pef-de-PbM"; */
+"Pef-de-PbM.text" = "Live date:";
+
+/* Class = "UIButton"; configuration.title = "歌曲信息"; ObjectID = "Ivw-zl-dUA"; */
+"Ivw-zl-dUA.configuration.title" = "Detail Info";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ivw-zl-dUA"; */
+"Ivw-zl-dUA.normalTitle" = "Detail Info";
+
+/* Class = "UILabel"; text = "排序方式:"; ObjectID = "Wxu-y8-mLC"; */
+"Wxu-y8-mLC.text" = "Sort By:";
+
+/* Class = "UILabel"; text = "最後に歌った日:"; ObjectID = "1f3-GU-aFc"; */
+"1f3-GU-aFc.text" = "Last sung:";
+
+/* Class = "UILabel"; text = "全回数:"; ObjectID = "Wsc-eA-WI4"; */
+"Wsc-eA-WI4.text" = "Times:";
+
+/* Class = "UILabel"; text = "Youtubeでの回数:"; ObjectID = "bq5-jF-BtE"; */
+"bq5-jF-BtE.text" = "Times @ Youtube:";
+
+/* Class = "UILabel"; text = "Bilibiliでの回数:"; ObjectID = "vx3-zh-0lO"; */
+"vx3-zh-0lO.text" = "Times @ Bilibili:";
+
+/* Class = "UISearchBar"; placeholder = "搜索"; ObjectID = "ddc-2a-nWs"; */
+"ddc-2a-nWs.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "最后一次演唱："; ObjectID = "AzW-8i-Ya0"; */
+"AzW-8i-Ya0.text" = "Last sung: ";
+
+/* Class = "UILabel"; text = "直播中演唱次数："; ObjectID = "lwO-75-czk"; */
+"lwO-75-czk.text" = "Times total: ";
+
+/* Class = "UIButton"; configuration.title = "查看当日歌单"; ObjectID = "cLa-17-Tfc"; */
+"cLa-17-Tfc.configuration.title" = "View the song list";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cLa-17-Tfc"; */
+"cLa-17-Tfc.normalTitle" = "View the song list";

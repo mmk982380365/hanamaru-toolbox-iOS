@@ -1,0 +1,83 @@
+/* 
+  Localizable.strings
+  hanamaruToolBox
+
+  Created by Yuuki on 2021/12/4.
+  
+*/
+
+live = "配信";
+
+count_header = "件";
+
+calendar = "カレンダ";
+
+about = "だいたい";
+
+singleSong = "シングル";
+
+songList = "セトリ";
+
+songListDetail = "セトリ";
+
+songListPreview = "曲";
+
+skewers = "メドレ曲";
+
+analytics = "統計";
+
+confirm = "確認";
+
+cancel = "キャンセル";
+
+sortTypeName = "曲名";
+
+sortTypeTime = "最後に歌った日";
+
+sortTypeCountAll = "全回数";
+
+sortTypeCountYoutube = "Youtubeでの回数";
+
+sortTypeCountBilibili = "Bilibiliでの回数";
+
+orderTypeAsc = "↑昇順";
+
+orderTypeDesc = "↓降順";
+
+search = "検索";
+
+songDetailHeaderYoutube = "Youtubeでの回数：";
+
+songDetailHeaderBilibili = "Bilibiliでの回数：";
+
+songListAll = "全ての曲";
+
+youtube = "Youtube";
+
+bilibili = "Bilibili";
+
+statisticAll = "限定されていない曲";
+
+limitSingle = "限定曲";
+
+limitMedley = "限定メドレ";
+
+misc = "雑物";
+
+youtubeGreetingBeginTitleLabel = "Youtube配信あいさつ";
+
+youtubeGreetingEndTitleLabel = "Youtube配信終了あいさつ";
+
+bilibiliGreetingBeginTitleLabel = "BiliBili配信あいさつ";
+
+bilibiliGreetingEndTitleLabel = "BiliBili配信終了あいさつ";
+
+storeTitle = "公式ストア";
+
+channelTitle = "はれるんチャネル";
+
+liveRoomTitle = "配信ルーム";
+
+scheduleTitle = "BiliBiliスケジュール";
+
+streamRoomTitle = "BiliBili配信ルーム";

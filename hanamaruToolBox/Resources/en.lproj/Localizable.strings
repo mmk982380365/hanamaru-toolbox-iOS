@@ -1,0 +1,83 @@
+/* 
+  Localizable.strings
+  hanamaruToolBox
+
+  Created by Yuuki on 2021/12/4.
+  
+*/
+
+live = "Live";
+
+count_header = " results";
+
+calendar = "Calendar";
+
+about = "About";
+
+singleSong = "Single";
+
+songList = "Song List";
+
+songListDetail = "Song List";
+
+songListPreview = "Single Song";
+
+skewers = "Medley Song";
+
+analytics = "Statistic";
+
+confirm = "Confirm";
+
+cancel = "Cancel";
+
+sortTypeName = "Song Name";
+
+sortTypeTime = "Last sung";
+
+sortTypeCountAll = "Times";
+
+sortTypeCountYoutube = "Times @ Youtube";
+
+sortTypeCountBilibili = "Times @ Bilibili";
+
+orderTypeAsc = "↑Ascend";
+
+orderTypeDesc = "↓Descend";
+
+search = "Search";
+
+songDetailHeaderYoutube = "Times on Youtube: ";
+
+songDetailHeaderBilibili = "Times on Bilibili: ";
+
+songListAll = "All Songs";
+
+youtube = "Youtube";
+
+bilibili = "Bilibili";
+
+statisticAll = "Unlimited songs";
+
+limitSingle = "Limited Singles";
+
+limitMedley = "Limited Medley";
+
+misc = "Misc.";
+
+youtubeGreetingBeginTitleLabel = "Youtube Stream Greetings";
+
+youtubeGreetingEndTitleLabel = "Youtube Stream Ending Greetings";
+
+bilibiliGreetingBeginTitleLabel = "Bilibili Stream Greetings";
+
+bilibiliGreetingEndTitleLabel = "Bilibili Stream Ending Greetings";
+
+storeTitle = "Official Stores";
+
+channelTitle = "Channels";
+
+liveRoomTitle = "Live Rooms";
+
+scheduleTitle = "BiliBili Schedule";
+
+streamRoomTitle = "BiliBili Stream Room";

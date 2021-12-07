@@ -1,0 +1,1061 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F213BC1275A3C3E0098E062 /* HMTCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F213BC0275A3C3E0098E062 /* HMTCalendarViewController.m */; };
+		4F213BC5275A4B250098E062 /* HMTHomepageSiteLinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F213BC4275A4B250098E062 /* HMTHomepageSiteLinkCell.m */; };
+		4F213BC8275A4B5C0098E062 /* HMTHomepageTopBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F213BC7275A4B5C0098E062 /* HMTHomepageTopBannerCell.m */; };
+		4F213BCB275A548B0098E062 /* HMTHomepageBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F213BCA275A548B0098E062 /* HMTHomepageBannerCell.m */; };
+		4F213BCE275A596C0098E062 /* HMTHomepageNeweastLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F213BCD275A596C0098E062 /* HMTHomepageNeweastLiveCell.m */; };
+		4F213BD3275A5E130098E062 /* HMTSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F213BD2275A5E130098E062 /* HMTSettingViewController.m */; };
+		4F65FBC9275C566B0050B5EA /* HMTSongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65FBC8275C566B0050B5EA /* HMTSongListViewController.m */; };
+		4F65FBCE275C581E0050B5EA /* HMTSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65FBCD275C581E0050B5EA /* HMTSectionView.m */; };
+		4F65FBD1275C63D90050B5EA /* HMTSongListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65FBD0275C63D90050B5EA /* HMTSongListDetailViewController.m */; };
+		4F65FBD4275C65490050B5EA /* HMTSongListPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65FBD3275C65490050B5EA /* HMTSongListPreviewViewController.m */; };
+		4F65FBDA275C66730050B5EA /* HMTSongListAnalyticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65FBD9275C66730050B5EA /* HMTSongListAnalyticsViewController.m */; };
+		4F65FBDE275C67560050B5EA /* HMTPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65FBDD275C67560050B5EA /* HMTPicker.m */; };
+		4F65FBE2275CA19B0050B5EA /* HMTSongListDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65FBE1275CA19B0050B5EA /* HMTSongListDetailCell.m */; };
+		4F65FBE5275CCAA60050B5EA /* HMTSongStatistic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65FBE4275CCAA60050B5EA /* HMTSongStatistic.m */; };
+		4F65FBE8275CCADB0050B5EA /* HMTSongStatisticCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65FBE7275CCADB0050B5EA /* HMTSongStatisticCount.m */; };
+		4F65FBEB275CD4A90050B5EA /* HMTSongListPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65FBEA275CD4A90050B5EA /* HMTSongListPreviewCell.m */; };
+		4F74E5C3275A0492009ADB6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5C2275A0492009ADB6D /* AppDelegate.m */; };
+		4F74E5C6275A0492009ADB6D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5C5275A0492009ADB6D /* SceneDelegate.m */; };
+		4F74E5C9275A0492009ADB6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5C8275A0492009ADB6D /* ViewController.m */; };
+		4F74E5CC275A0492009ADB6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F74E5CA275A0492009ADB6D /* Main.storyboard */; };
+		4F74E5CE275A0494009ADB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F74E5CD275A0494009ADB6D /* Assets.xcassets */; };
+		4F74E5D1275A0494009ADB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F74E5CF275A0494009ADB6D /* LaunchScreen.storyboard */; };
+		4F74E5D4275A0494009ADB6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5D3275A0494009ADB6D /* main.m */; };
+		4F74E5E3275A0897009ADB6D /* HMTColorThemes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5E2275A0897009ADB6D /* HMTColorThemes.m */; };
+		4F74E5E6275A098B009ADB6D /* HMTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5E5275A098B009ADB6D /* HMTNavigationController.m */; };
+		4F74E5E9275A0A51009ADB6D /* HMTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5E8275A0A51009ADB6D /* HMTViewController.m */; };
+		4F74E5EE275A0A67009ADB6D /* HMTHomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5ED275A0A67009ADB6D /* HMTHomepageViewController.m */; };
+		4F74E5F1275A0A8D009ADB6D /* HMTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5F0275A0A8D009ADB6D /* HMTTabBarController.m */; };
+		4F74E5F6275A0BC0009ADB6D /* HMTSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5F5275A0BC0009ADB6D /* HMTSliderViewController.m */; };
+		4F74E5FA275A105D009ADB6D /* HMTSilderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E5F9275A105D009ADB6D /* HMTSilderView.m */; };
+		4F74E601275A160D009ADB6D /* UIViewController+HMT_Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E600275A160D009ADB6D /* UIViewController+HMT_Slider.m */; };
+		4F74E604275A25AC009ADB6D /* HMTSilderViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E603275A25AC009ADB6D /* HMTSilderViewCell.m */; };
+		4F74E608275A25D9009ADB6D /* HMTSliderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74E607275A25D9009ADB6D /* HMTSliderItem.m */; };
+		4F8AD83C275F2DC5005F6084 /* HMTDatabaseManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AD83B275F2DC5005F6084 /* HMTDatabaseManager.mm */; };
+		4F8AD841275F2E8A005F6084 /* HMTSongEntity.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AD83E275F2E8A005F6084 /* HMTSongEntity.mm */; };
+		4F8AD844275F4C48005F6084 /* HMTLimitStatistic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AD843275F4C48005F6084 /* HMTLimitStatistic.m */; };
+		4F8AD849275F741F005F6084 /* HMTMiscViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AD848275F741F005F6084 /* HMTMiscViewController.m */; };
+		4FCC219A275DB0CA00ED45F7 /* HMTSongDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC2199275DB0CA00ED45F7 /* HMTSongDetailViewController.m */; };
+		4FCC219D275DB74600ED45F7 /* HMTSongDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC219C275DB74600ED45F7 /* HMTSongDetailHeaderView.m */; };
+		4FCC21A0275DBBE800ED45F7 /* HMTSongDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC219F275DBBE800ED45F7 /* HMTSongDetailCell.m */; };
+		4FCC21A3275DDEA000ED45F7 /* HMTSongListSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC21A2275DDEA000ED45F7 /* HMTSongListSong.m */; };
+		4FF76A60275AFE1300AB0478 /* HMTHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A5F275AFE1300AB0478 /* HMTHTTPService.m */; };
+		4FF76A64275B00FB00AB0478 /* HMTLocalDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A63275B00FB00AB0478 /* HMTLocalDataStorage.m */; };
+		4FF76A68275B014500AB0478 /* HMTForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A67275B014500AB0478 /* HMTForecast.m */; };
+		4FF76A6B275B01BB00AB0478 /* HMTSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A6A275B01BB00AB0478 /* HMTSingle.m */; };
+		4FF76A6E275B01E500AB0478 /* HMTSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A6D275B01E500AB0478 /* HMTSlide.m */; };
+		4FF76A71275B022A00AB0478 /* HMTSongList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A70275B022A00AB0478 /* HMTSongList.m */; };
+		4FF76A74275B026300AB0478 /* HMTVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A73275B026300AB0478 /* HMTVideo.m */; };
+		4FF76A77275B139700AB0478 /* HMTAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A76275B139700AB0478 /* HMTAppUtils.m */; };
+		4FF76A7B275B177000AB0478 /* HMTHomepageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A7A275B177000AB0478 /* HMTHomepageData.m */; };
+		4FF76A7E275B405500AB0478 /* HMTHomepageVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A7D275B405500AB0478 /* HMTHomepageVideoCell.m */; };
+		4FF76A81275B44D400AB0478 /* HMTHomepageSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A80275B44D400AB0478 /* HMTHomepageSectionHeaderView.m */; };
+		4FF76A85275B5C2900AB0478 /* HMTCalendarDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A84275B5C2900AB0478 /* HMTCalendarDetailCell.m */; };
+		4FF76A8F275B680700AB0478 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FF76A91275B680700AB0478 /* Localizable.strings */; };
+		4FF76AA0275B788A00AB0478 /* HMTSingleSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76A9F275B788A00AB0478 /* HMTSingleSongViewController.m */; };
+		4FF76AA4275B7A6200AB0478 /* HMTSingleSongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76AA3275B7A6200AB0478 /* HMTSingleSongCell.m */; };
+		4FF76AA7275B802C00AB0478 /* HMTSingleSongLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76AA6275B802C00AB0478 /* HMTSingleSongLayout.m */; };
+		4FF76AAA275B8BEB00AB0478 /* HMTSongListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76AA9275B8BEB00AB0478 /* HMTSongListHeaderView.m */; };
+		4FF76AAE275B953600AB0478 /* NSArray+HMT_Reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF76AAD275B953600AB0478 /* NSArray+HMT_Reverse.m */; };
+		EFF211F2F6BD591D704D1896 /* libPods-hanamaruToolBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFA69396BC2D0552B41C378 /* libPods-hanamaruToolBox.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A29127061560AE5297A81E7 /* Pods-hanamaruToolBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hanamaruToolBox.release.xcconfig"; path = "Target Support Files/Pods-hanamaruToolBox/Pods-hanamaruToolBox.release.xcconfig"; sourceTree = "<group>"; };
+		409CFAA43102BDA21790B0BA /* Pods-hanamaruToolBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hanamaruToolBox.debug.xcconfig"; path = "Target Support Files/Pods-hanamaruToolBox/Pods-hanamaruToolBox.debug.xcconfig"; sourceTree = "<group>"; };
+		4F213BBF275A3C3E0098E062 /* HMTCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTCalendarViewController.h; sourceTree = "<group>"; };
+		4F213BC0275A3C3E0098E062 /* HMTCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTCalendarViewController.m; sourceTree = "<group>"; };
+		4F213BC3275A4B250098E062 /* HMTHomepageSiteLinkCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTHomepageSiteLinkCell.h; sourceTree = "<group>"; };
+		4F213BC4275A4B250098E062 /* HMTHomepageSiteLinkCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTHomepageSiteLinkCell.m; sourceTree = "<group>"; };
+		4F213BC6275A4B5C0098E062 /* HMTHomepageTopBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTHomepageTopBannerCell.h; sourceTree = "<group>"; };
+		4F213BC7275A4B5C0098E062 /* HMTHomepageTopBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTHomepageTopBannerCell.m; sourceTree = "<group>"; };
+		4F213BC9275A548B0098E062 /* HMTHomepageBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTHomepageBannerCell.h; sourceTree = "<group>"; };
+		4F213BCA275A548B0098E062 /* HMTHomepageBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTHomepageBannerCell.m; sourceTree = "<group>"; };
+		4F213BCC275A596C0098E062 /* HMTHomepageNeweastLiveCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTHomepageNeweastLiveCell.h; sourceTree = "<group>"; };
+		4F213BCD275A596C0098E062 /* HMTHomepageNeweastLiveCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTHomepageNeweastLiveCell.m; sourceTree = "<group>"; };
+		4F213BD1275A5E130098E062 /* HMTSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSettingViewController.h; sourceTree = "<group>"; };
+		4F213BD2275A5E130098E062 /* HMTSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSettingViewController.m; sourceTree = "<group>"; };
+		4F65FBC7275C566B0050B5EA /* HMTSongListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongListViewController.h; sourceTree = "<group>"; };
+		4F65FBC8275C566B0050B5EA /* HMTSongListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongListViewController.m; sourceTree = "<group>"; };
+		4F65FBCC275C581E0050B5EA /* HMTSectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSectionView.h; sourceTree = "<group>"; };
+		4F65FBCD275C581E0050B5EA /* HMTSectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSectionView.m; sourceTree = "<group>"; };
+		4F65FBCF275C63D90050B5EA /* HMTSongListDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongListDetailViewController.h; sourceTree = "<group>"; };
+		4F65FBD0275C63D90050B5EA /* HMTSongListDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongListDetailViewController.m; sourceTree = "<group>"; };
+		4F65FBD2275C65490050B5EA /* HMTSongListPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongListPreviewViewController.h; sourceTree = "<group>"; };
+		4F65FBD3275C65490050B5EA /* HMTSongListPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongListPreviewViewController.m; sourceTree = "<group>"; };
+		4F65FBD8275C66730050B5EA /* HMTSongListAnalyticsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongListAnalyticsViewController.h; sourceTree = "<group>"; };
+		4F65FBD9275C66730050B5EA /* HMTSongListAnalyticsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongListAnalyticsViewController.m; sourceTree = "<group>"; };
+		4F65FBDC275C67560050B5EA /* HMTPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTPicker.h; sourceTree = "<group>"; };
+		4F65FBDD275C67560050B5EA /* HMTPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTPicker.m; sourceTree = "<group>"; };
+		4F65FBE0275CA19B0050B5EA /* HMTSongListDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongListDetailCell.h; sourceTree = "<group>"; };
+		4F65FBE1275CA19B0050B5EA /* HMTSongListDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongListDetailCell.m; sourceTree = "<group>"; };
+		4F65FBE3275CCAA60050B5EA /* HMTSongStatistic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongStatistic.h; sourceTree = "<group>"; };
+		4F65FBE4275CCAA60050B5EA /* HMTSongStatistic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongStatistic.m; sourceTree = "<group>"; };
+		4F65FBE6275CCADB0050B5EA /* HMTSongStatisticCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongStatisticCount.h; sourceTree = "<group>"; };
+		4F65FBE7275CCADB0050B5EA /* HMTSongStatisticCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongStatisticCount.m; sourceTree = "<group>"; };
+		4F65FBE9275CD4A90050B5EA /* HMTSongListPreviewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongListPreviewCell.h; sourceTree = "<group>"; };
+		4F65FBEA275CD4A90050B5EA /* HMTSongListPreviewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongListPreviewCell.m; sourceTree = "<group>"; };
+		4F74E5BE275A0492009ADB6D /* hanamaruToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hanamaruToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F74E5C1275A0492009ADB6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F74E5C2275A0492009ADB6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F74E5C4275A0492009ADB6D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4F74E5C5275A0492009ADB6D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4F74E5C7275A0492009ADB6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F74E5C8275A0492009ADB6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F74E5CB275A0492009ADB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F74E5CD275A0494009ADB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F74E5D0275A0494009ADB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F74E5D2275A0494009ADB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F74E5D3275A0494009ADB6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F74E5E1275A0897009ADB6D /* HMTColorThemes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTColorThemes.h; sourceTree = "<group>"; };
+		4F74E5E2275A0897009ADB6D /* HMTColorThemes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTColorThemes.m; sourceTree = "<group>"; };
+		4F74E5E4275A098B009ADB6D /* HMTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTNavigationController.h; sourceTree = "<group>"; };
+		4F74E5E5275A098B009ADB6D /* HMTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTNavigationController.m; sourceTree = "<group>"; };
+		4F74E5E7275A0A51009ADB6D /* HMTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTViewController.h; sourceTree = "<group>"; };
+		4F74E5E8275A0A51009ADB6D /* HMTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTViewController.m; sourceTree = "<group>"; };
+		4F74E5EC275A0A67009ADB6D /* HMTHomepageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTHomepageViewController.h; sourceTree = "<group>"; };
+		4F74E5ED275A0A67009ADB6D /* HMTHomepageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTHomepageViewController.m; sourceTree = "<group>"; };
+		4F74E5EF275A0A8D009ADB6D /* HMTTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTTabBarController.h; sourceTree = "<group>"; };
+		4F74E5F0275A0A8D009ADB6D /* HMTTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTTabBarController.m; sourceTree = "<group>"; };
+		4F74E5F4275A0BC0009ADB6D /* HMTSliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSliderViewController.h; sourceTree = "<group>"; };
+		4F74E5F5275A0BC0009ADB6D /* HMTSliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSliderViewController.m; sourceTree = "<group>"; };
+		4F74E5F8275A105D009ADB6D /* HMTSilderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSilderView.h; sourceTree = "<group>"; };
+		4F74E5F9275A105D009ADB6D /* HMTSilderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSilderView.m; sourceTree = "<group>"; };
+		4F74E5FF275A160D009ADB6D /* UIViewController+HMT_Slider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HMT_Slider.h"; sourceTree = "<group>"; };
+		4F74E600275A160D009ADB6D /* UIViewController+HMT_Slider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HMT_Slider.m"; sourceTree = "<group>"; };
+		4F74E602275A25AC009ADB6D /* HMTSilderViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSilderViewCell.h; sourceTree = "<group>"; };
+		4F74E603275A25AC009ADB6D /* HMTSilderViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSilderViewCell.m; sourceTree = "<group>"; };
+		4F74E606275A25D9009ADB6D /* HMTSliderItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSliderItem.h; sourceTree = "<group>"; };
+		4F74E607275A25D9009ADB6D /* HMTSliderItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSliderItem.m; sourceTree = "<group>"; };
+		4F8AD83A275F2DC5005F6084 /* HMTDatabaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTDatabaseManager.h; sourceTree = "<group>"; };
+		4F8AD83B275F2DC5005F6084 /* HMTDatabaseManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HMTDatabaseManager.mm; sourceTree = "<group>"; };
+		4F8AD83E275F2E8A005F6084 /* HMTSongEntity.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HMTSongEntity.mm; sourceTree = "<group>"; };
+		4F8AD83F275F2E8A005F6084 /* HMTSongEntity+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HMTSongEntity+WCTTableCoding.h"; sourceTree = "<group>"; };
+		4F8AD840275F2E8A005F6084 /* HMTSongEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongEntity.h; sourceTree = "<group>"; };
+		4F8AD842275F4C48005F6084 /* HMTLimitStatistic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTLimitStatistic.h; sourceTree = "<group>"; };
+		4F8AD843275F4C48005F6084 /* HMTLimitStatistic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTLimitStatistic.m; sourceTree = "<group>"; };
+		4F8AD847275F741F005F6084 /* HMTMiscViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTMiscViewController.h; sourceTree = "<group>"; };
+		4F8AD848275F741F005F6084 /* HMTMiscViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTMiscViewController.m; sourceTree = "<group>"; };
+		4FCC2198275DB0CA00ED45F7 /* HMTSongDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongDetailViewController.h; sourceTree = "<group>"; };
+		4FCC2199275DB0CA00ED45F7 /* HMTSongDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongDetailViewController.m; sourceTree = "<group>"; };
+		4FCC219B275DB74600ED45F7 /* HMTSongDetailHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongDetailHeaderView.h; sourceTree = "<group>"; };
+		4FCC219C275DB74600ED45F7 /* HMTSongDetailHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongDetailHeaderView.m; sourceTree = "<group>"; };
+		4FCC219E275DBBE800ED45F7 /* HMTSongDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongDetailCell.h; sourceTree = "<group>"; };
+		4FCC219F275DBBE800ED45F7 /* HMTSongDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongDetailCell.m; sourceTree = "<group>"; };
+		4FCC21A1275DDEA000ED45F7 /* HMTSongListSong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongListSong.h; sourceTree = "<group>"; };
+		4FCC21A2275DDEA000ED45F7 /* HMTSongListSong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongListSong.m; sourceTree = "<group>"; };
+		4FF76A5E275AFE1300AB0478 /* HMTHTTPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HMTHTTPService.h; path = hanamaruToolBox/Modules/Settings/ViewController/HMTHTTPService.h; sourceTree = SOURCE_ROOT; };
+		4FF76A5F275AFE1300AB0478 /* HMTHTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HMTHTTPService.m; path = hanamaruToolBox/Modules/Settings/ViewController/HMTHTTPService.m; sourceTree = SOURCE_ROOT; };
+		4FF76A62275B00FB00AB0478 /* HMTLocalDataStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTLocalDataStorage.h; sourceTree = "<group>"; };
+		4FF76A63275B00FB00AB0478 /* HMTLocalDataStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTLocalDataStorage.m; sourceTree = "<group>"; };
+		4FF76A66275B014500AB0478 /* HMTForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTForecast.h; sourceTree = "<group>"; };
+		4FF76A67275B014500AB0478 /* HMTForecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTForecast.m; sourceTree = "<group>"; };
+		4FF76A69275B01BB00AB0478 /* HMTSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSingle.h; sourceTree = "<group>"; };
+		4FF76A6A275B01BB00AB0478 /* HMTSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSingle.m; sourceTree = "<group>"; };
+		4FF76A6C275B01E500AB0478 /* HMTSlide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSlide.h; sourceTree = "<group>"; };
+		4FF76A6D275B01E500AB0478 /* HMTSlide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSlide.m; sourceTree = "<group>"; };
+		4FF76A6F275B022A00AB0478 /* HMTSongList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongList.h; sourceTree = "<group>"; };
+		4FF76A70275B022A00AB0478 /* HMTSongList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongList.m; sourceTree = "<group>"; };
+		4FF76A72275B026300AB0478 /* HMTVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTVideo.h; sourceTree = "<group>"; };
+		4FF76A73275B026300AB0478 /* HMTVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTVideo.m; sourceTree = "<group>"; };
+		4FF76A75275B139700AB0478 /* HMTAppUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTAppUtils.h; sourceTree = "<group>"; };
+		4FF76A76275B139700AB0478 /* HMTAppUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTAppUtils.m; sourceTree = "<group>"; };
+		4FF76A79275B177000AB0478 /* HMTHomepageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTHomepageData.h; sourceTree = "<group>"; };
+		4FF76A7A275B177000AB0478 /* HMTHomepageData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTHomepageData.m; sourceTree = "<group>"; };
+		4FF76A7C275B405500AB0478 /* HMTHomepageVideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTHomepageVideoCell.h; sourceTree = "<group>"; };
+		4FF76A7D275B405500AB0478 /* HMTHomepageVideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTHomepageVideoCell.m; sourceTree = "<group>"; };
+		4FF76A7F275B44D400AB0478 /* HMTHomepageSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTHomepageSectionHeaderView.h; sourceTree = "<group>"; };
+		4FF76A80275B44D400AB0478 /* HMTHomepageSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTHomepageSectionHeaderView.m; sourceTree = "<group>"; };
+		4FF76A83275B5C2900AB0478 /* HMTCalendarDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTCalendarDetailCell.h; sourceTree = "<group>"; };
+		4FF76A84275B5C2900AB0478 /* HMTCalendarDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTCalendarDetailCell.m; sourceTree = "<group>"; };
+		4FF76A90275B680700AB0478 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4FF76A92275B680A00AB0478 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4FF76A93275B680E00AB0478 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4FF76A97275B737D00AB0478 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		4FF76A99275B73AC00AB0478 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		4FF76A9B275B73B200AB0478 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		4FF76A9E275B788A00AB0478 /* HMTSingleSongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSingleSongViewController.h; sourceTree = "<group>"; };
+		4FF76A9F275B788A00AB0478 /* HMTSingleSongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSingleSongViewController.m; sourceTree = "<group>"; };
+		4FF76AA2275B7A6200AB0478 /* HMTSingleSongCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSingleSongCell.h; sourceTree = "<group>"; };
+		4FF76AA3275B7A6200AB0478 /* HMTSingleSongCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSingleSongCell.m; sourceTree = "<group>"; };
+		4FF76AA5275B802C00AB0478 /* HMTSingleSongLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSingleSongLayout.h; sourceTree = "<group>"; };
+		4FF76AA6275B802C00AB0478 /* HMTSingleSongLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSingleSongLayout.m; sourceTree = "<group>"; };
+		4FF76AA8275B8BEB00AB0478 /* HMTSongListHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTSongListHeaderView.h; sourceTree = "<group>"; };
+		4FF76AA9275B8BEB00AB0478 /* HMTSongListHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTSongListHeaderView.m; sourceTree = "<group>"; };
+		4FF76AAC275B953600AB0478 /* NSArray+HMT_Reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+HMT_Reverse.h"; sourceTree = "<group>"; };
+		4FF76AAD275B953600AB0478 /* NSArray+HMT_Reverse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HMT_Reverse.m"; sourceTree = "<group>"; };
+		8FFA69396BC2D0552B41C378 /* libPods-hanamaruToolBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hanamaruToolBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F74E5BB275A0492009ADB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF211F2F6BD591D704D1896 /* libPods-hanamaruToolBox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F213BBD275A3C210098E062 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76A82275B5C1800AB0478 /* View */,
+				4F213BBE275A3C240098E062 /* ViewController */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		4F213BBE275A3C240098E062 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F213BBF275A3C3E0098E062 /* HMTCalendarViewController.h */,
+				4F213BC0275A3C3E0098E062 /* HMTCalendarViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F213BC2275A4B0D0098E062 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				4F213BC6275A4B5C0098E062 /* HMTHomepageTopBannerCell.h */,
+				4F213BC7275A4B5C0098E062 /* HMTHomepageTopBannerCell.m */,
+				4F213BC3275A4B250098E062 /* HMTHomepageSiteLinkCell.h */,
+				4F213BC4275A4B250098E062 /* HMTHomepageSiteLinkCell.m */,
+				4F213BC9275A548B0098E062 /* HMTHomepageBannerCell.h */,
+				4F213BCA275A548B0098E062 /* HMTHomepageBannerCell.m */,
+				4F213BCC275A596C0098E062 /* HMTHomepageNeweastLiveCell.h */,
+				4F213BCD275A596C0098E062 /* HMTHomepageNeweastLiveCell.m */,
+				4FF76A7C275B405500AB0478 /* HMTHomepageVideoCell.h */,
+				4FF76A7D275B405500AB0478 /* HMTHomepageVideoCell.m */,
+				4FF76A7F275B44D400AB0478 /* HMTHomepageSectionHeaderView.h */,
+				4FF76A80275B44D400AB0478 /* HMTHomepageSectionHeaderView.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		4F213BCF275A5DD90098E062 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4F213BD0275A5DFE0098E062 /* ViewController */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4F213BD0275A5DFE0098E062 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F213BD1275A5E130098E062 /* HMTSettingViewController.h */,
+				4F213BD2275A5E130098E062 /* HMTSettingViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F65FBC5275C56540050B5EA /* SongList */ = {
+			isa = PBXGroup;
+			children = (
+				4F65FBDF275CA1890050B5EA /* View */,
+				4F65FBC6275C56570050B5EA /* ViewController */,
+			);
+			path = SongList;
+			sourceTree = "<group>";
+		};
+		4F65FBC6275C56570050B5EA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F65FBC7275C566B0050B5EA /* HMTSongListViewController.h */,
+				4F65FBC8275C566B0050B5EA /* HMTSongListViewController.m */,
+				4F65FBCF275C63D90050B5EA /* HMTSongListDetailViewController.h */,
+				4F65FBD0275C63D90050B5EA /* HMTSongListDetailViewController.m */,
+				4F65FBD2275C65490050B5EA /* HMTSongListPreviewViewController.h */,
+				4F65FBD3275C65490050B5EA /* HMTSongListPreviewViewController.m */,
+				4F65FBD8275C66730050B5EA /* HMTSongListAnalyticsViewController.h */,
+				4F65FBD9275C66730050B5EA /* HMTSongListAnalyticsViewController.m */,
+				4FCC2198275DB0CA00ED45F7 /* HMTSongDetailViewController.h */,
+				4FCC2199275DB0CA00ED45F7 /* HMTSongDetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F65FBCA275C580B0050B5EA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4F65FBDB275C67490050B5EA /* DatePicker */,
+				4F65FBCB275C58110050B5EA /* SectionView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4F65FBCB275C58110050B5EA /* SectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4F65FBCC275C581E0050B5EA /* HMTSectionView.h */,
+				4F65FBCD275C581E0050B5EA /* HMTSectionView.m */,
+			);
+			path = SectionView;
+			sourceTree = "<group>";
+		};
+		4F65FBDB275C67490050B5EA /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				4F65FBDC275C67560050B5EA /* HMTPicker.h */,
+				4F65FBDD275C67560050B5EA /* HMTPicker.m */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		4F65FBDF275CA1890050B5EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F65FBE0275CA19B0050B5EA /* HMTSongListDetailCell.h */,
+				4F65FBE1275CA19B0050B5EA /* HMTSongListDetailCell.m */,
+				4F65FBE9275CD4A90050B5EA /* HMTSongListPreviewCell.h */,
+				4F65FBEA275CD4A90050B5EA /* HMTSongListPreviewCell.m */,
+				4FCC219B275DB74600ED45F7 /* HMTSongDetailHeaderView.h */,
+				4FCC219C275DB74600ED45F7 /* HMTSongDetailHeaderView.m */,
+				4FCC219E275DBBE800ED45F7 /* HMTSongDetailCell.h */,
+				4FCC219F275DBBE800ED45F7 /* HMTSongDetailCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F74E5B5275A0492009ADB6D = {
+			isa = PBXGroup;
+			children = (
+				4F74E5C0275A0492009ADB6D /* hanamaruToolBox */,
+				4F74E5BF275A0492009ADB6D /* Products */,
+				C609E86491E90A78B3E511F2 /* Pods */,
+				7B801B816E658F2FDD4FB625 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F74E5BF275A0492009ADB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F74E5BE275A0492009ADB6D /* hanamaruToolBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F74E5C0275A0492009ADB6D /* hanamaruToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				4F65FBCA275C580B0050B5EA /* Components */,
+				4FF76AAB275B951B00AB0478 /* Category */,
+				4FF76A86275B679500AB0478 /* Resources */,
+				4F74E5DA275A0792009ADB6D /* Modules */,
+				4F74E5DB275A0797009ADB6D /* Commons */,
+				4FF76A65275B013800AB0478 /* Models */,
+				4FF76A61275B00EB00AB0478 /* Storage */,
+				4FF76A5D275AFE0700AB0478 /* Service */,
+				4F74E5E0275A088B009ADB6D /* Utils */,
+				4F74E5C1275A0492009ADB6D /* AppDelegate.h */,
+				4F74E5C2275A0492009ADB6D /* AppDelegate.m */,
+				4F74E5C4275A0492009ADB6D /* SceneDelegate.h */,
+				4F74E5C5275A0492009ADB6D /* SceneDelegate.m */,
+				4F74E5C7275A0492009ADB6D /* ViewController.h */,
+				4F74E5C8275A0492009ADB6D /* ViewController.m */,
+				4F74E5CA275A0492009ADB6D /* Main.storyboard */,
+				4F74E5CD275A0494009ADB6D /* Assets.xcassets */,
+				4F74E5CF275A0494009ADB6D /* LaunchScreen.storyboard */,
+				4F74E5D2275A0494009ADB6D /* Info.plist */,
+				4F74E5D3275A0494009ADB6D /* main.m */,
+			);
+			path = hanamaruToolBox;
+			sourceTree = "<group>";
+		};
+		4F74E5DA275A0792009ADB6D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AD845275F740A005F6084 /* Misc */,
+				4F65FBC5275C56540050B5EA /* SongList */,
+				4FF76A9C275B787300AB0478 /* Single */,
+				4F213BCF275A5DD90098E062 /* Settings */,
+				4F74E5F2275A0BA1009ADB6D /* Slider */,
+				4F74E5EA275A0A54009ADB6D /* Homepage */,
+				4F213BBD275A3C210098E062 /* Calendar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4F74E5DB275A0797009ADB6D /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				4F74E5DC275A079A009ADB6D /* VIewControllers */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		4F74E5DC275A079A009ADB6D /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F74E5E4275A098B009ADB6D /* HMTNavigationController.h */,
+				4F74E5E5275A098B009ADB6D /* HMTNavigationController.m */,
+				4F74E5E7275A0A51009ADB6D /* HMTViewController.h */,
+				4F74E5E8275A0A51009ADB6D /* HMTViewController.m */,
+				4F74E5EF275A0A8D009ADB6D /* HMTTabBarController.h */,
+				4F74E5F0275A0A8D009ADB6D /* HMTTabBarController.m */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		4F74E5E0275A088B009ADB6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F74E5E1275A0897009ADB6D /* HMTColorThemes.h */,
+				4F74E5E2275A0897009ADB6D /* HMTColorThemes.m */,
+				4FF76A75275B139700AB0478 /* HMTAppUtils.h */,
+				4FF76A76275B139700AB0478 /* HMTAppUtils.m */,
+				4F8AD83A275F2DC5005F6084 /* HMTDatabaseManager.h */,
+				4F8AD83B275F2DC5005F6084 /* HMTDatabaseManager.mm */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4F74E5EA275A0A54009ADB6D /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76A78275B176400AB0478 /* Models */,
+				4F213BC2275A4B0D0098E062 /* VIew */,
+				4F74E5EB275A0A57009ADB6D /* ViewController */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		4F74E5EB275A0A57009ADB6D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F74E5EC275A0A67009ADB6D /* HMTHomepageViewController.h */,
+				4F74E5ED275A0A67009ADB6D /* HMTHomepageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F74E5F2275A0BA1009ADB6D /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				4F74E605275A25CD009ADB6D /* Models */,
+				4F74E5FB275A15DC009ADB6D /* Catrgories */,
+				4F74E5F7275A1051009ADB6D /* View */,
+				4F74E5F3275A0BAE009ADB6D /* ViewController */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		4F74E5F3275A0BAE009ADB6D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F74E5F4275A0BC0009ADB6D /* HMTSliderViewController.h */,
+				4F74E5F5275A0BC0009ADB6D /* HMTSliderViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F74E5F7275A1051009ADB6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F74E5F8275A105D009ADB6D /* HMTSilderView.h */,
+				4F74E5F9275A105D009ADB6D /* HMTSilderView.m */,
+				4F74E602275A25AC009ADB6D /* HMTSilderViewCell.h */,
+				4F74E603275A25AC009ADB6D /* HMTSilderViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F74E5FB275A15DC009ADB6D /* Catrgories */ = {
+			isa = PBXGroup;
+			children = (
+				4F74E5FF275A160D009ADB6D /* UIViewController+HMT_Slider.h */,
+				4F74E600275A160D009ADB6D /* UIViewController+HMT_Slider.m */,
+			);
+			path = Catrgories;
+			sourceTree = "<group>";
+		};
+		4F74E605275A25CD009ADB6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F74E606275A25D9009ADB6D /* HMTSliderItem.h */,
+				4F74E607275A25D9009ADB6D /* HMTSliderItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F8AD83D275F2E6C005F6084 /* DatabaseModels */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AD840275F2E8A005F6084 /* HMTSongEntity.h */,
+				4F8AD83F275F2E8A005F6084 /* HMTSongEntity+WCTTableCoding.h */,
+				4F8AD83E275F2E8A005F6084 /* HMTSongEntity.mm */,
+			);
+			path = DatabaseModels;
+			sourceTree = "<group>";
+		};
+		4F8AD845275F740A005F6084 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AD846275F740D005F6084 /* ViewController */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		4F8AD846275F740D005F6084 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AD847275F741F005F6084 /* HMTMiscViewController.h */,
+				4F8AD848275F741F005F6084 /* HMTMiscViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4FF76A5D275AFE0700AB0478 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76A5E275AFE1300AB0478 /* HMTHTTPService.h */,
+				4FF76A5F275AFE1300AB0478 /* HMTHTTPService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4FF76A61275B00EB00AB0478 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76A62275B00FB00AB0478 /* HMTLocalDataStorage.h */,
+				4FF76A63275B00FB00AB0478 /* HMTLocalDataStorage.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		4FF76A65275B013800AB0478 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AD83D275F2E6C005F6084 /* DatabaseModels */,
+				4FF76A66275B014500AB0478 /* HMTForecast.h */,
+				4FF76A67275B014500AB0478 /* HMTForecast.m */,
+				4FF76A69275B01BB00AB0478 /* HMTSingle.h */,
+				4FF76A6A275B01BB00AB0478 /* HMTSingle.m */,
+				4FF76A6C275B01E500AB0478 /* HMTSlide.h */,
+				4FF76A6D275B01E500AB0478 /* HMTSlide.m */,
+				4FF76A6F275B022A00AB0478 /* HMTSongList.h */,
+				4FF76A70275B022A00AB0478 /* HMTSongList.m */,
+				4FCC21A1275DDEA000ED45F7 /* HMTSongListSong.h */,
+				4FCC21A2275DDEA000ED45F7 /* HMTSongListSong.m */,
+				4FF76A72275B026300AB0478 /* HMTVideo.h */,
+				4FF76A73275B026300AB0478 /* HMTVideo.m */,
+				4F65FBE3275CCAA60050B5EA /* HMTSongStatistic.h */,
+				4F65FBE4275CCAA60050B5EA /* HMTSongStatistic.m */,
+				4F65FBE6275CCADB0050B5EA /* HMTSongStatisticCount.h */,
+				4F65FBE7275CCADB0050B5EA /* HMTSongStatisticCount.m */,
+				4F8AD842275F4C48005F6084 /* HMTLimitStatistic.h */,
+				4F8AD843275F4C48005F6084 /* HMTLimitStatistic.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FF76A78275B176400AB0478 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76A79275B177000AB0478 /* HMTHomepageData.h */,
+				4FF76A7A275B177000AB0478 /* HMTHomepageData.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FF76A82275B5C1800AB0478 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76A83275B5C2900AB0478 /* HMTCalendarDetailCell.h */,
+				4FF76A84275B5C2900AB0478 /* HMTCalendarDetailCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FF76A86275B679500AB0478 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76A91275B680700AB0478 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4FF76A9C275B787300AB0478 /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76AA1275B7A4D00AB0478 /* VIew */,
+				4FF76A9D275B787600AB0478 /* ViewController */,
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		4FF76A9D275B787600AB0478 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76A9E275B788A00AB0478 /* HMTSingleSongViewController.h */,
+				4FF76A9F275B788A00AB0478 /* HMTSingleSongViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4FF76AA1275B7A4D00AB0478 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76AA2275B7A6200AB0478 /* HMTSingleSongCell.h */,
+				4FF76AA3275B7A6200AB0478 /* HMTSingleSongCell.m */,
+				4FF76AA8275B8BEB00AB0478 /* HMTSongListHeaderView.h */,
+				4FF76AA9275B8BEB00AB0478 /* HMTSongListHeaderView.m */,
+				4FF76AA5275B802C00AB0478 /* HMTSingleSongLayout.h */,
+				4FF76AA6275B802C00AB0478 /* HMTSingleSongLayout.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		4FF76AAB275B951B00AB0478 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4FF76AAC275B953600AB0478 /* NSArray+HMT_Reverse.h */,
+				4FF76AAD275B953600AB0478 /* NSArray+HMT_Reverse.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7B801B816E658F2FDD4FB625 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA69396BC2D0552B41C378 /* libPods-hanamaruToolBox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C609E86491E90A78B3E511F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				409CFAA43102BDA21790B0BA /* Pods-hanamaruToolBox.debug.xcconfig */,
+				2A29127061560AE5297A81E7 /* Pods-hanamaruToolBox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F74E5BD275A0492009ADB6D /* hanamaruToolBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F74E5D7275A0494009ADB6D /* Build configuration list for PBXNativeTarget "hanamaruToolBox" */;
+			buildPhases = (
+				7D22659C4D7B7BB0D5F8E461 /* [CP] Check Pods Manifest.lock */,
+				4F74E5BA275A0492009ADB6D /* Sources */,
+				4F74E5BB275A0492009ADB6D /* Frameworks */,
+				4F74E5BC275A0492009ADB6D /* Resources */,
+				465D599D1336B4AA20D73DA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hanamaruToolBox;
+			productName = hanamaruToolBox;
+			productReference = 4F74E5BE275A0492009ADB6D /* hanamaruToolBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F74E5B6275A0492009ADB6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = HMT;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4F74E5BD275A0492009ADB6D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F74E5B9275A0492009ADB6D /* Build configuration list for PBXProject "hanamaruToolBox" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				ja,
+			);
+			mainGroup = 4F74E5B5275A0492009ADB6D;
+			productRefGroup = 4F74E5BF275A0492009ADB6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F74E5BD275A0492009ADB6D /* hanamaruToolBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F74E5BC275A0492009ADB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F74E5D1275A0494009ADB6D /* LaunchScreen.storyboard in Resources */,
+				4FF76A8F275B680700AB0478 /* Localizable.strings in Resources */,
+				4F74E5CE275A0494009ADB6D /* Assets.xcassets in Resources */,
+				4F74E5CC275A0492009ADB6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		465D599D1336B4AA20D73DA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hanamaruToolBox/Pods-hanamaruToolBox-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hanamaruToolBox/Pods-hanamaruToolBox-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hanamaruToolBox/Pods-hanamaruToolBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D22659C4D7B7BB0D5F8E461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hanamaruToolBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F74E5BA275A0492009ADB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8AD844275F4C48005F6084 /* HMTLimitStatistic.m in Sources */,
+				4FF76A6E275B01E500AB0478 /* HMTSlide.m in Sources */,
+				4F74E5F1275A0A8D009ADB6D /* HMTTabBarController.m in Sources */,
+				4FF76A6B275B01BB00AB0478 /* HMTSingle.m in Sources */,
+				4FF76AA0275B788A00AB0478 /* HMTSingleSongViewController.m in Sources */,
+				4F74E5C9275A0492009ADB6D /* ViewController.m in Sources */,
+				4F65FBE8275CCADB0050B5EA /* HMTSongStatisticCount.m in Sources */,
+				4FF76A68275B014500AB0478 /* HMTForecast.m in Sources */,
+				4F74E5C3275A0492009ADB6D /* AppDelegate.m in Sources */,
+				4F65FBC9275C566B0050B5EA /* HMTSongListViewController.m in Sources */,
+				4F213BD3275A5E130098E062 /* HMTSettingViewController.m in Sources */,
+				4FCC219A275DB0CA00ED45F7 /* HMTSongDetailViewController.m in Sources */,
+				4F74E601275A160D009ADB6D /* UIViewController+HMT_Slider.m in Sources */,
+				4FF76A85275B5C2900AB0478 /* HMTCalendarDetailCell.m in Sources */,
+				4F65FBCE275C581E0050B5EA /* HMTSectionView.m in Sources */,
+				4F65FBDA275C66730050B5EA /* HMTSongListAnalyticsViewController.m in Sources */,
+				4FF76AAA275B8BEB00AB0478 /* HMTSongListHeaderView.m in Sources */,
+				4FF76AA4275B7A6200AB0478 /* HMTSingleSongCell.m in Sources */,
+				4F213BCE275A596C0098E062 /* HMTHomepageNeweastLiveCell.m in Sources */,
+				4F213BC1275A3C3E0098E062 /* HMTCalendarViewController.m in Sources */,
+				4FF76AA7275B802C00AB0478 /* HMTSingleSongLayout.m in Sources */,
+				4F213BCB275A548B0098E062 /* HMTHomepageBannerCell.m in Sources */,
+				4F74E5D4275A0494009ADB6D /* main.m in Sources */,
+				4F213BC5275A4B250098E062 /* HMTHomepageSiteLinkCell.m in Sources */,
+				4FF76A7E275B405500AB0478 /* HMTHomepageVideoCell.m in Sources */,
+				4F213BC8275A4B5C0098E062 /* HMTHomepageTopBannerCell.m in Sources */,
+				4F65FBD1275C63D90050B5EA /* HMTSongListDetailViewController.m in Sources */,
+				4F74E608275A25D9009ADB6D /* HMTSliderItem.m in Sources */,
+				4F8AD841275F2E8A005F6084 /* HMTSongEntity.mm in Sources */,
+				4FF76A77275B139700AB0478 /* HMTAppUtils.m in Sources */,
+				4FF76AAE275B953600AB0478 /* NSArray+HMT_Reverse.m in Sources */,
+				4F74E5FA275A105D009ADB6D /* HMTSilderView.m in Sources */,
+				4FF76A64275B00FB00AB0478 /* HMTLocalDataStorage.m in Sources */,
+				4F65FBE2275CA19B0050B5EA /* HMTSongListDetailCell.m in Sources */,
+				4F8AD83C275F2DC5005F6084 /* HMTDatabaseManager.mm in Sources */,
+				4F74E5E9275A0A51009ADB6D /* HMTViewController.m in Sources */,
+				4F65FBEB275CD4A90050B5EA /* HMTSongListPreviewCell.m in Sources */,
+				4FF76A60275AFE1300AB0478 /* HMTHTTPService.m in Sources */,
+				4F74E5EE275A0A67009ADB6D /* HMTHomepageViewController.m in Sources */,
+				4FF76A74275B026300AB0478 /* HMTVideo.m in Sources */,
+				4F74E5E6275A098B009ADB6D /* HMTNavigationController.m in Sources */,
+				4F8AD849275F741F005F6084 /* HMTMiscViewController.m in Sources */,
+				4F74E5F6275A0BC0009ADB6D /* HMTSliderViewController.m in Sources */,
+				4FF76A81275B44D400AB0478 /* HMTHomepageSectionHeaderView.m in Sources */,
+				4FF76A7B275B177000AB0478 /* HMTHomepageData.m in Sources */,
+				4FCC21A0275DBBE800ED45F7 /* HMTSongDetailCell.m in Sources */,
+				4FF76A71275B022A00AB0478 /* HMTSongList.m in Sources */,
+				4F65FBDE275C67560050B5EA /* HMTPicker.m in Sources */,
+				4F74E5E3275A0897009ADB6D /* HMTColorThemes.m in Sources */,
+				4FCC21A3275DDEA000ED45F7 /* HMTSongListSong.m in Sources */,
+				4F65FBD4275C65490050B5EA /* HMTSongListPreviewViewController.m in Sources */,
+				4FCC219D275DB74600ED45F7 /* HMTSongDetailHeaderView.m in Sources */,
+				4F65FBE5275CCAA60050B5EA /* HMTSongStatistic.m in Sources */,
+				4F74E5C6275A0492009ADB6D /* SceneDelegate.m in Sources */,
+				4F74E604275A25AC009ADB6D /* HMTSilderViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F74E5CA275A0492009ADB6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F74E5CB275A0492009ADB6D /* Base */,
+				4FF76A97275B737D00AB0478 /* en */,
+				4FF76A99275B73AC00AB0478 /* zh-Hans */,
+				4FF76A9B275B73B200AB0478 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F74E5CF275A0494009ADB6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F74E5D0275A0494009ADB6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4FF76A91275B680700AB0478 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF76A90275B680700AB0478 /* en */,
+				4FF76A92275B680A00AB0478 /* zh-Hans */,
+				4FF76A93275B680E00AB0478 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F74E5D5275A0494009ADB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F74E5D6275A0494009ADB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F74E5D8275A0494009ADB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409CFAA43102BDA21790B0BA /* Pods-hanamaruToolBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3JZ5FTDGK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hanamaruToolBox/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "花丸工具箱";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.yuukizoom.hanamaruToolBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4F74E5D9275A0494009ADB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A29127061560AE5297A81E7 /* Pods-hanamaruToolBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3JZ5FTDGK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hanamaruToolBox/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "花丸工具箱";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.yuukizoom.hanamaruToolBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F74E5B9275A0492009ADB6D /* Build configuration list for PBXProject "hanamaruToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F74E5D5275A0494009ADB6D /* Debug */,
+				4F74E5D6275A0494009ADB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F74E5D7275A0494009ADB6D /* Build configuration list for PBXNativeTarget "hanamaruToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F74E5D8275A0494009ADB6D /* Debug */,
+				4F74E5D9275A0494009ADB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F74E5B6275A0492009ADB6D /* Project object */;
+}

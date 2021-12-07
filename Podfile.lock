@@ -1,0 +1,78 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - iOS-Echarts (1.4.4)
+  - JTCalendar (2.2.6)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.3.0)
+  - MJRefresh (3.7.2)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDB (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - iOS-Echarts
+  - JTCalendar
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - SDCycleScrollView
+  - SDWebImage
+  - WCDB
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - iOS-Echarts
+    - JTCalendar
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
+    - SQLiteRepairKit
+    - WCDB
+    - WCDBOptimizedSQLCipher
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  iOS-Echarts: dbc7423d861e5eedee78906a39d205b5c4da9a13
+  JTCalendar: 1b326e0d59dd1855b52c5f3feb059d2ff953805d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+
+PODFILE CHECKSUM: 55ca0408a4f0e8a8e053d340f57d24e60e774303
+
+COCOAPODS: 1.11.2

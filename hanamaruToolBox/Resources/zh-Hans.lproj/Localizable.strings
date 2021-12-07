@@ -1,0 +1,83 @@
+/* 
+  Localizable.strings
+  hanamaruToolBox
+
+  Created by Yuuki on 2021/12/4.
+  
+*/
+
+live = "直播";
+
+count_header = "个结果";
+
+calendar = "日历";
+
+about = "关于";
+
+singleSong = "单曲";
+
+songList = "歌单";
+
+songListDetail = "歌单";
+
+songListPreview = "单曲一览";
+
+skewers = "串烧一览";
+
+analytics = "统计";
+
+confirm = "确认";
+
+cancel = "取消";
+
+sortTypeName = "曲名";
+
+sortTypeTime = "最近一次演唱";
+
+sortTypeCountAll = "演唱次数";
+
+sortTypeCountYoutube = "油管演唱次数";
+
+sortTypeCountBilibili = "B站演唱次数";
+
+orderTypeAsc = "↑升序";
+
+orderTypeDesc = "↓降序";
+
+search = "搜索";
+
+songDetailHeaderYoutube = "在油管上演唱次数：";
+
+songDetailHeaderBilibili = "在B站上演唱次数：";
+
+songListAll = "全部曲目";
+
+youtube = "油管";
+
+bilibili = "B站";
+
+statisticAll = "非限定曲";
+
+limitSingle = "限定单曲";
+
+limitMedley = "限定串烧曲";
+
+misc = "杂物";
+
+youtubeGreetingBeginTitleLabel = "油管直播问候";
+
+youtubeGreetingEndTitleLabel = "油管直播结束问候";
+
+bilibiliGreetingBeginTitleLabel = "B站直播问候";
+
+bilibiliGreetingEndTitleLabel = "B站直播结束问候";
+
+storeTitle = "官方商店";
+
+channelTitle = "频道连接";
+
+liveRoomTitle = "直播间";
+
+scheduleTitle = "BiliBili主播日历";
+
+streamRoomTitle = "BiliBili直播间";
