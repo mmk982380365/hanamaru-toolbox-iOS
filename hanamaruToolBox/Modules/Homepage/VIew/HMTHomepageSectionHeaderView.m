@@ -26,14 +26,14 @@
                     return self.configurationState.isPinned ? color : [color colorWithAlphaComponent:0];
                 } else {
                     // Fallback on earlier versions
-                    return color;
+                    return [HMTColorThemes backgroundColor];
                 }
             };
             self.backgroundConfiguration = conf;
             
         } else {
             // Fallback on earlier versions
-            self.backgroundColor = [HMTColorThemes primaryColor];
+            self.backgroundColor = [HMTColorThemes backgroundColor];
         }
         
         self.numberLabel = [[UILabel alloc] init];

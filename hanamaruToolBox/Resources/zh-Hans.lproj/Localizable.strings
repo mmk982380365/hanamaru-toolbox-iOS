@@ -81,3 +81,7 @@ liveRoomTitle = "直播间";
 scheduleTitle = "BiliBili主播日历";
 
 streamRoomTitle = "BiliBili直播间";
+
+links = "友情链接";
+
+homeLink = "官网";

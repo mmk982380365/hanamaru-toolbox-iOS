@@ -81,3 +81,7 @@ liveRoomTitle = "配信ルーム";
 scheduleTitle = "BiliBiliスケジュール";
 
 streamRoomTitle = "BiliBili配信ルーム";
+
+links = "リンク";
+
+homeLink = "公式サイト";

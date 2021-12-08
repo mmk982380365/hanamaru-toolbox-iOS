@@ -11,7 +11,7 @@
 #import "HMTSongListDetailCell.h"
 #import "HMTSongDetailViewController.h"
 
-@interface HMTSongListDetailViewController () <UITableViewDelegate, UITableViewDataSource, HMTSongListDetailCellDelegate>
+@interface HMTSongListDetailViewController () <UITableViewDelegate, UITableViewDataSource, HMTSongListDetailCellDelegate, HMTSongDetailViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *dateBtn;
 
@@ -155,10 +155,36 @@
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         HMTSongDetailViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"songDetail"];
         vc.songStatistic = statistic;
+        vc.delegate = self;
         [self.navigationController pushViewController:vc animated:YES];
     }
     
 
+}
+
+#pragma mark - HMTSongDetailViewControllerDelegate
+
+- (void)onClickSongListWithName:(NSString *)name date:(NSString *)date {
+    NSInteger index = [[[HMTLocalDataStorage sharedStorage].songList valueForKeyPath:@"date"] indexOfObject:date];
+    if (index != NSNotFound) {
+        HMTSongList *list = [HMTLocalDataStorage sharedStorage].songList[index];
+        
+        self.date = date;
+        
+        NSInteger indexOfSong = NSNotFound;
+        for (int i = 0; i < list.songs.count; i++) {
+            NSString *song = list.songs[i];
+            if ([song containsString:name]) {
+                indexOfSong = i;
+                break;;
+            }
+        }
+        
+        
+        if (indexOfSong != NSNotFound) {
+            [self scrollToIndex:indexOfSong];
+        }
+    }
 }
 
 #pragma mark - Setter

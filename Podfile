@@ -15,6 +15,6 @@ target 'hanamaruToolBox' do
   pod 'SDCycleScrollView'
   pod 'JTCalendar'
   pod 'WCDB'
-  pod 'iOS-Echarts'
+  pod 'iOS-Echarts', :git => 'https://github.com/mmk982380365/iOS-Echarts.git'
   
 end

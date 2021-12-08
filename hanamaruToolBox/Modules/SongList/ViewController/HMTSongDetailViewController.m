@@ -84,10 +84,14 @@ NSNotificationName const HMTSongDetailViewControllerShowSongList = @"HMTSongDeta
 - (void)onClickSongList:(HMTSongStatisticCount *)statistic {
     NSString *date = statistic.date;
     [self.navigationController popViewControllerAnimated:YES];
-    [[NSNotificationCenter defaultCenter] postNotificationName:HMTSongDetailViewControllerShowSongList object:nil userInfo:@{
-        @"date": date ?: @"",
-        @"name": self.songStatistic.name
-    }];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(onClickSongListWithName:date:)]) {
+        [self.delegate onClickSongListWithName:self.songStatistic.name date:date];
+    } else {
+        [[NSNotificationCenter defaultCenter] postNotificationName:HMTSongDetailViewControllerShowSongList object:nil userInfo:@{
+            @"date": date ?: @"",
+            @"name": self.songStatistic.name
+        }];
+    }
 }
 
 /*

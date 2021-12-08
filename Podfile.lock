@@ -34,7 +34,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - iOS-Echarts
+  - iOS-Echarts (from `https://github.com/mmk982380365/iOS-Echarts.git`)
   - JTCalendar
   - Masonry
   - MBProgressHUD
@@ -47,7 +47,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - iOS-Echarts
     - JTCalendar
     - Masonry
     - MBProgressHUD
@@ -58,6 +57,15 @@ SPEC REPOS:
     - SQLiteRepairKit
     - WCDB
     - WCDBOptimizedSQLCipher
+
+EXTERNAL SOURCES:
+  iOS-Echarts:
+    :git: https://github.com/mmk982380365/iOS-Echarts.git
+
+CHECKOUT OPTIONS:
+  iOS-Echarts:
+    :commit: 4f4dd9028927f688fbd3e969b7a1ebb983f6f43b
+    :git: https://github.com/mmk982380365/iOS-Echarts.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -73,6 +81,6 @@ SPEC CHECKSUMS:
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
 
-PODFILE CHECKSUM: 55ca0408a4f0e8a8e053d340f57d24e60e774303
+PODFILE CHECKSUM: 522c3049e32d5833741d30ec00ec8f0d5be4aa7d
 
 COCOAPODS: 1.11.2

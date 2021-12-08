@@ -8,6 +8,7 @@
 #import "HMTSettingViewController.h"
 #import "HMTColorThemes.h"
 #import "HMTAppUtils.h"
+#import "HMTSongDetailHeaderView.h"
 
 #import <Masonry/Masonry.h>
 
@@ -33,6 +34,8 @@
     
     self.tableBackgroundView = [[UIView alloc] init];
     self.tableView.backgroundView = self.tableBackgroundView;
+    
+    [self.tableView registerClass:HMTSongDetailHeaderView.class forHeaderFooterViewReuseIdentifier:@"header"];
     
     self.versionLabel = [[UILabel alloc] init];
     self.versionLabel.text = [NSString stringWithFormat:@"v:%@", [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]];
@@ -90,6 +93,11 @@
             cell.textLabel.text = NSLocalizedString(@"streamRoomTitle", nil);
             cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         }
+    } else if (indexPath.section == 3) {
+        if (indexPath.row == 0) {
+            cell.textLabel.text = NSLocalizedString(@"homeLink", nil);
+            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        }
     }
     return cell;
 }
@@ -101,6 +109,8 @@
         return 3;
     } else if (section == 2) {
         return 2;
+    } else if (section == 3) {
+        return 1;
     }
     return 2;
 }
@@ -142,23 +152,33 @@
                 
             }];
         }
+    } else if (indexPath.section == 3) {
+        if (indexPath.row == 0) {
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://hanamaru-hareru.vercel.app/#"] options:@{} completionHandler:^(BOOL success) {
+                
+            }];
+        }
     }
     
 }
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    HMTSongDetailHeaderView *headerView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"header"];
     if (section == 0) {
-        return NSLocalizedString(@"storeTitle", nil);
+        headerView.titleLabel.text = NSLocalizedString(@"storeTitle", nil);
     } else if (section == 1) {
-        return NSLocalizedString(@"channelTitle", nil);
+        headerView.titleLabel.text = NSLocalizedString(@"channelTitle", nil);
     } else if (section == 2) {
-        return NSLocalizedString(@"liveRoomTitle", nil);
+        headerView.titleLabel.text = NSLocalizedString(@"liveRoomTitle", nil);
+    } else if (section == 3) {
+        headerView.titleLabel.text = NSLocalizedString(@"links", nli);
     }
-    return nil;
+    headerView.headerBackgroundColor = [HMTColorThemes backgroundColor];
+    return headerView;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+    return 4;
 }
 
 /*

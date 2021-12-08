@@ -81,3 +81,7 @@ liveRoomTitle = "Live Rooms";
 scheduleTitle = "BiliBili Schedule";
 
 streamRoomTitle = "BiliBili Stream Room";
+
+links = "Links";
+
+homeLink = "Official website";

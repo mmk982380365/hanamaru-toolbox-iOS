@@ -23,7 +23,7 @@
 
 @property (weak, nonatomic) IBOutlet UIView *echartContentView;
 
-@property (strong, nonatomic) PYEchartsView *echartView;
+@property (strong, nonatomic) WKEchartsView *echartView;
 
 @property (assign, nonatomic) NSInteger currentIndex;
 
@@ -36,7 +36,7 @@
 @implementation HMTSongListAnalyticsViewController
 
 + (void)load {
-    __unused PYEchartsView *echart = [[PYEchartsView alloc] init];
+    __unused WKEchartsView *echart = [[WKEchartsView alloc] init];
 }
 
 - (void)viewDidLoad {
@@ -62,7 +62,7 @@
 }
 
 - (void)createEchartView {
-    self.echartView = [[PYEchartsView alloc] init];
+    self.echartView = [[WKEchartsView alloc] init];
     self.echartView.userInteractionEnabled = NO;
     [self.echartContentView addSubview:self.echartView];
     

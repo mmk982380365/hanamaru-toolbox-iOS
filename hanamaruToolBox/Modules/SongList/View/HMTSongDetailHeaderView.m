@@ -30,7 +30,7 @@
                     return self.configurationState.isPinned ? color : [color colorWithAlphaComponent:0];
                 } else {
                     // Fallback on earlier versions
-                    return color;
+                    return [HMTColorThemes backgroundColor];
                 }
             };
             self.backgroundConfiguration = conf;
